@@ -1,10 +1,6 @@
-
-
-function MyButton({tekst,changeTitle}) {
-  
+function MyButton({ tekst, changeTitle }) {
   return (
-   <button onClick={changeTitle}>{tekst}</button>
+    <button onClick={changeTitle}>{tekst}</button>
   );
 }
-
 export default MyButton;
