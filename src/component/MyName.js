@@ -1,9 +1,9 @@
-function Myname(probs) {
+function Myname(props) {
   return (
     <h1 className="imie">
 
-      <div>{probs.name}</div>
-      <div>{probs.surname}</div>
+      <div>{props.name}</div>
+      <div>{props.surname}</div>
     </h1>
   );
 }
